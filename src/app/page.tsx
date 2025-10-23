@@ -61,7 +61,7 @@ export default function Home() {
 
         {/* Tag */}
         <span className="text-lime-400 text-xs uppercase tracking-wider font-semibold block">
-          Available in Early 2025
+          Available in Early 2026
         </span>
 
         {/* Headline */}
@@ -71,10 +71,22 @@ export default function Home() {
 
         {/* Subtext */}
         <p className="text-gray-400 text-sm sm:text-base leading-relaxed">
-          Be amongst the first to experience{" "}
-          <span className="text-lime-400 font-semibold">GammsApp</span> and
-          launch a viral waitlist. Sign up to be notified when we launch!
+          The first <span className="text-lime-400 font-semibold">1,000</span> people to join{" "}
+          <span className="text-lime-400 font-semibold">GammsApp</span> will be automatically verified.{" "}
+          Verification on{" "}
+          <span className="text-lime-400 font-semibold">GammsApp</span> is earned through{" "}
+          community contributions inside{" "}
+          <span className="text-lime-400 font-semibold">GammsApp Circle</span>.{" "}
+          Contribute early, get verified faster — and yes,{" "}
+          <span className="text-lime-400 font-semibold">you’ll also get paid when contributor rewards go live.</span>
         </p>
+
+        <p className="text-lime-400 text-sm sm:text-base font-medium mt-3 animate-pulse">
+          Secure your spot before it’s gone
+        </p>
+
+
+
 
         {/* Join Form */}
         <form
@@ -148,7 +160,7 @@ export default function Home() {
         {/* Success Modal */}
         {submitted && (
           <div className="flex flex-col items-center text-center">
-            <p className="text-lg font-semibold">🎉 You are on the waitlist!</p>
+            <p className="text-lg font-semibold">You are on the <span className="text-lime-400 font-semibold">GammsApp</span> waitlist!</p>
             <p className="text-sm text-gray-300 mb-4">
               Thanks for registering, we will notify you when we launch.
             </p>
@@ -157,7 +169,7 @@ export default function Home() {
             <div className="mt-4 flex justify-center">
               <a
                 href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(
-                  "🚀 I just joined the @GammsApp waitlist! Can’t wait to see what’s coming next. #GammsApp"
+                  " I just joined the @GammsApp waitlist! Can’t wait to see what’s coming next. #GammsApp"
                 )}&url=${encodeURIComponent("https://gammsapp.vercel.app")}`}
                 target="_blank"
                 rel="noopener noreferrer"
