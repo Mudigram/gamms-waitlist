@@ -42,7 +42,7 @@ export default function Home() {
   };
 
   return (
-    <main className="min-h-screen bg-black flex items-center justify-center px-6 sm:px-8 lg:px-12 text-white font-sans">
+    <main className="min-h-screen bg-[linear-gradient(to_top,_rgba(163,230,53,0.15)_10%,_black_90%)] flex items-center justify-center px-6 sm:px-8 lg:px-12 text-white font-sans">
       <div className="w-full max-w-md bg-black/50 backdrop-blur-2xl border border-white/10 rounded-3xl shadow-2xl p-8 sm:p-10 text-center space-y-8 relative mt-10 mb-10">
         {/* Glow */}
         <div className="absolute inset-0 rounded-3xl bg-linear-to-br from-lime-400/30 to-transparent blur-lg -z-10"></div>
